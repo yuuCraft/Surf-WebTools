@@ -1,0 +1,49 @@
+header{
+  padding:14px 20px;
+  border-bottom:1px solid #ddd;
+  background:#fff;
+  font-size:18px;
+  font-weight:600;
+}
+
+.container{
+  display:flex;
+  height:calc(100vh - 60px);
+}
+
+aside{
+  width:220px;
+  border-right:1px solid #ddd;
+  padding:14px;
+  background:#fafafa;
+}
+
+aside h3{
+  margin-bottom:8px;
+  font-size:14px;
+  color:#666;
+}
+
+aside a{
+  display:block;
+  padding:6px 4px;
+  border-radius:4px;
+}
+
+aside a:hover{
+  background:#eaeaea;
+}
+
+main{
+  flex:1;
+  padding:16px;
+  overflow:auto;
+}
+
+#search{
+  width:100%;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  margin-bottom:16px;
+}
